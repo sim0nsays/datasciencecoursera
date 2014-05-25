@@ -8,7 +8,7 @@ activityLabels = read.table("activity_labels.txt", col.names=c("ID", "Activity")
 # lowercase & capitalize first letters
 activityLabels$Name <- sub('^(\\w?)', '\\U\\1', tolower(activityLabels$Activity), perl=T)
 # remove _ and capitalize following letter
-gsub('_(\\w?)', '\\U\\1', activityLabels$Name, perl=T)
+activityLabels$Name = gsub('_(\\w?)', '\\U\\1', activityLabels$Name, perl=T)
 
  
 extractData = function (folderName) {
