@@ -63,3 +63,9 @@ For each of the variables, mean and std values are available.
 
 For example, column "tBodyGyroJerk-mean()-Z" describes mean value of Z-coordinate of derived angular velocity for the particular sample observation.
 
+### Averaged data set
+
+Additional averaged data set (averageMeanStddata.txt) is generated and describes average of each quantitative variable for each activity and each subject
+
+This data set has the same quantitative variables, but value in each columns represents averaged data for each activity and each subject.
+

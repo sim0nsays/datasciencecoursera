@@ -7,8 +7,12 @@ Run run_analysis.R script in the directory containing data downloaded from https
 
 (note you should run it inside "UCI HAR Dataset" folder)
 
+It should generate two files:
+  * proccesedMeanStddata.txt - contains tidy data set with columns describing mean and std data of the research
+  * averageMeanStddata.txt - contains tidy data set with averaged data for each activity and each subject
+
 # Codebook
 
-CodeBook.MD explains resulting columns and values for "Activity" folder.
+CodeBook.MD explains meaning and possible values of resulting columns.
 
 
